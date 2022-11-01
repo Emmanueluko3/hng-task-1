@@ -15,7 +15,7 @@ function Profile() {
             onMouseEnter={() => setProfileicon(profile__img__hover)} 
             onMouseLeave={() => setProfileicon(profile__imgNormal)} 
             alt="Profile picture" />
-        <h3>__Froshy</h3>
+        <h4>__Froshy</h4>
         </>
      );
 }
