@@ -1,9 +1,19 @@
-
+.display-mobile{
+  display: none;
+}
 
 @media (max-width: 600px) {
   .footer{
     text-align: start;
     flex-direction: column;
+  }
+
+  .display-desktop{
+    display: none;
+  }
+
+  .display-mobile{
+    display: block;
   }
 }
 
