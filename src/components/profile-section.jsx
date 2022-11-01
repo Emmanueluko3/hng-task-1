@@ -12,6 +12,7 @@ function Profile() {
     return ( 
         <>
         <img src={profileicon}
+            className="btn"
             onMouseEnter={() => setProfileicon(profile__img__hover)} 
             onMouseLeave={() => setProfileicon(profile__imgNormal)} 
             alt="Profile picture" />
