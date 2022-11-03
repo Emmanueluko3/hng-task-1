@@ -50,6 +50,11 @@ function Home() {
           id="books__design" 
           text="Design Books" 
           subParagraph="Begin your design journey with this book created by Zuri team, It's absoluty free!!!" />
+        <Buttons 
+          link="/contact" 
+          effectAble={false} 
+          id="contact" 
+          text="Contact Me" />
       </div>
 
       <div className="d-flex justify-content-center my-3">
