@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="text-center container py-5">
-      {/* <Home /> */}
+      <Home />
       <Contact />
       <div className="my-5">
         <Footer />
