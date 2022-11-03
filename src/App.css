@@ -2,10 +2,18 @@
   display: none;
 }
 
+.custom-width{
+  width: 70vw;
+}
+
 @media (max-width: 600px) {
   .footer{
     text-align: start;
     flex-direction: column;
+  }
+
+  .custom-width{
+    width: 100vw;
   }
 
   .display-desktop{
