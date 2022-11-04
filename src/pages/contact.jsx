@@ -63,7 +63,7 @@ function Contact() {
                 <h2 className="fw-bold fs-1 mb-2">Contact Me</h2>
                 <p className="mb-4">Hi there, contact me to ask me about anything you have in mind.</p>
 
-                <form onSubmit={handleSubmit} action="#">
+                <form onSubmit={handleSubmit}>
 
                     <div className="row">
                         <div className="mb-3 col-lg-6">
