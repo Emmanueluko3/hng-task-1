@@ -68,7 +68,7 @@ function Contact() {
                     <div className="row">
                         <div className="mb-3 col-lg-6">
                             <label 
-                                htmlFor="firstName" 
+                                htmlFor="first_name" 
                                 className="form-label fw-bold"
                             >First name</label>
                             <input 
@@ -85,7 +85,7 @@ function Contact() {
 
                         <div className="mb-3 col-lg-6">
                             <label 
-                                htmlFor="lastName" 
+                                htmlFor="last_name" 
                                 className="form-label fw-bold"
                             >Last name</label>
                             <input 
