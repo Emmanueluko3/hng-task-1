@@ -119,7 +119,7 @@ function Contact() {
 
                     <div className="mb-3">
                         <label 
-                            htmlFor="textArea"
+                            htmlFor="message"
                             className="form-label fw-bold"
                         >Message</label>
                         <textarea 
